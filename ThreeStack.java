@@ -15,7 +15,7 @@ public ThreeStack(){
 
 public void  push(int nbr , String nom){
   int taillepile = this.tab.length /3;
-  //System.out.println(taillepile);
+  
   for (int j=0 ; j< taillepile ; j++)
   {
     int indice_dans_pile = ((nbr*taillepile)-taillepile + j);
@@ -23,7 +23,7 @@ public void  push(int nbr , String nom){
     if (this.tab[indice_dans_pile] == null)
     {
       this.tab[indice_dans_pile] = nom ;
-      //System.out.println(this.tab[0]);
+      
       break;
     }
 }
