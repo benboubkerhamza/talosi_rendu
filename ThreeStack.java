@@ -1,4 +1,4 @@
-package talosi;
+
 
 public class ThreeStack {
 
@@ -11,22 +11,7 @@ public ThreeStack(){
 }
 
 
-/*public push(int nbr , String object)
-{
-  int taillepile = this.tab.length /3;
-  for( int i=1 ; i<=3 ; i++ ){
-    if ( nbr == i){
-      for (int j=0 ; j< taillepile ; j++){
-        int indice_dans_pile = (nbr-1)*(taillepile) + j;
-        if ((this.tab[indice_dans_pile] == null)
-        {
-          (this.tab[indice_dans_pile] = object ;
-        }
-    }
-  }
-  }
-    
-}*/
+
 
 public void  push(int nbr , String nom){
   int taillepile = this.tab.length /3;
